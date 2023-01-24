@@ -14,5 +14,7 @@ int sum (int x, int y)
 {
 	printf("Enter the First Number : ");
 	scanf("%d", &x);
+	printf("\n\rEnter the Second Number : ");
+	scanf("%d", &y);
 	retrun x+y;
 }
