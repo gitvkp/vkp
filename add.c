@@ -12,5 +12,7 @@ void main()
 
 int sum (int x, int y)
 {
+	printf("Enter the First Number : ");
+	scanf("%d", &x);
 	retrun x+y;
 }
