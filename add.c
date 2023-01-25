@@ -4,7 +4,7 @@ int sum (int x, int y);
 
 void main()
 {
-	int num1, num2, sum;
+	int num1, num2;
 	printf("Sum of %d and %d = %d", 
 			num1, num2, sum(num1, num2));
 	
@@ -13,8 +13,9 @@ void main()
 int sum (int x, int y)
 {
 	printf("Enter the First Number : ");
-	getchar(&x);
+	scanf("%d", &x);
 	printf("\n\rEnter the Second Number : ");
 	scanf("%d", &y);
-	retrun x+y;
+	int sum = x+y;
+	return sum;
 }
